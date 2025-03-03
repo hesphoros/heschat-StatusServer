@@ -12,6 +12,7 @@
 #include <memory>
 #include <string>
 #include <thread>
+#include "message.grpc.pb.h"
 #include <boost/asio.hpp>
 #include "StatusServiceImpl.h"
 
