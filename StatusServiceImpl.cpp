@@ -68,6 +68,7 @@ ChatServer StatusServiceImpl::getChatServer() {
 
 
 	// 使用范围基于for循环
+	// 遍历最小连接数量的服务器
 	for ( auto& server : _servers) {
 		
 		if (server.second.name == minServer.name) {
